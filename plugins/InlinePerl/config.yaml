@@ -1,0 +1,9 @@
+id: InlinePerl
+name: InlinePerl
+description: Runs inline perl script in template.
+
+tags:
+    block:
+        InlinePerl: $InlinePerl::MT::InlinePerl::Tags::hdlr_InlinePerl
+    modifier:
+        perl_filter: $InlinePerl::MT::InlinePerl::Tags::hdlr_perl_filter
